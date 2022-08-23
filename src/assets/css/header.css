@@ -1,0 +1,60 @@
+header {
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+header .logo-icon {
+  color: rgb(255, 34, 19);
+  font-size: 25px;
+}
+
+header .logo h1 {
+  color: white;
+  font-size: 25px;
+}
+
+header .logo span {
+  color: rgb(255, 34, 19);
+  font-size: 25px;
+}
+
+header .advert {
+  margin-left: auto;
+}
+
+header img {
+  height: 60px;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  gap: 40px;
+}
+
+header ul li a,
+header ul li i {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+header ul li a:hover,
+header ul li i:hover {
+  color: rgb(255, 34, 19);
+}
+
+header .active {
+  color: rgb(255, 34, 19);
+}
